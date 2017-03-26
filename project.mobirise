@@ -1,7 +1,7 @@
 {
   "settings": {
     "name": "Join Study's Blog",
-    "currentPage": "page2.html",
+    "currentPage": "index.html",
     "theme": {
       "name": "default",
       "title": "Mobirise",
@@ -240,7 +240,7 @@
             }
           },
           "title1": "Logistics and Supply Chain",
-          "caption1": "<a href=\"page1.html\" class=\"text-info\">Great journey of Indian Scientists</a>",
+          "caption1": "<a href=\"page1.html\" class=\"text-info\">Great journey of Indian Scientists</a><br><a href=\"page2.html\" class=\"text-info\">New Online Classroom by Join Study</a><br>",
           "button1": "<a data-app-btn=\"true\" href=\"https://mobirise.com\" class=\"mbr-buttons__btn btn btn-wrap btn-xs-lg btn-default\">LEARN MORE</a>",
           "media2": {
             "image": {
@@ -260,7 +260,7 @@
             }
           },
           "title2": "K12 Education",
-          "caption2": "<a href=\"page1.html\" class=\"text-info\">Great journey of Indian Scientists</a>",
+          "caption2": "<a href=\"page1.html\" class=\"text-info\">Great journey of Indian Scientists</a><br><a href=\"page2.html\" class=\"text-info\">New Online Classroom by Join Study</a><br>",
           "button2": "<a data-app-btn=\"true\" href=\"https://mobirise.com\" class=\"mbr-buttons__btn btn btn-wrap btn-xs-lg btn-default\">LEARN MORE</a>",
           "media3": {
             "image": {
@@ -843,7 +843,7 @@
     },
     "page2.html": {
       "settings": {
-        "title": "Great Journey of Indian Scientists",
+        "title": "New Online Classroom by Join Study",
         "meta_descr": "",
         "header_custom": "",
         "footer_custom": "",
