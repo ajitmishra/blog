@@ -97,3 +97,52 @@
 #msg-box4-p .mbr-article {
   color: #ffffff;
 }
+
+#dropdown-menu-t .hide-buttons [data-button] {
+  display: none !important;
+}
+#dropdown-menu-t .navbar-brand a {
+  font-size: 24px;
+}
+#dropdown-menu-t .nav .link,
+#dropdown-menu-t .dropdown-item {
+  font-size: 1em;
+  color: #ffffff;
+  font-family: 'Roboto Condensed', sans-serif;
+}
+#dropdown-menu-t .navbar,
+#dropdown-menu-t .dropdown-menu {
+  background: #27aae0;
+}
+#dropdown-menu-t .dropdown-menu .dropdown-toggle[aria-expanded="true"],
+#dropdown-menu-t .dropdown-menu a:hover,
+#dropdown-menu-t .dropdown-menu a:focus {
+  background: #1e9fd4;
+}
+#dropdown-menu-t .navbar-toggler {
+  color: #ffffff;
+}
+#msg-box4-u .mbr-header__text {
+  color: #ffffff;
+}
+#msg-box4-u .mbr-header__subtext {
+  color: #ffffff;
+}
+#msg-box4-u .mbr-article {
+  color: #ffffff;
+}
+#social-buttons1-x .mbr-header__text {
+  font-size: 25px;
+}
+#footer1-y P {
+  color: #ffffff;
+}
+#msg-box4-z .mbr-header__text {
+  color: #ffffff;
+}
+#msg-box4-z .mbr-header__subtext {
+  color: #ffffff;
+}
+#msg-box4-z .mbr-article {
+  color: #ffffff;
+}
