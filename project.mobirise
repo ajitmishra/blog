@@ -8,7 +8,7 @@
       "styling": {}
     },
     "versionFirst": "3.11.1",
-    "uniqCompNum": 38,
+    "uniqCompNum": 60,
     "versionPublish": "3.11.1",
     "favicon": "@PROJECT_PATH@/assets/images/favicon-js-logo-128x128.png",
     "noImageResize": "",
@@ -28,132 +28,39 @@
       },
       "components": [
         {
-          "_styles": {
-            ".hide-buttons [data-button]": {
-              "display": "none !important"
-            },
-            ".navbar-brand a": {
-              "font-size": "24px"
-            },
-            ".nav .link, .dropdown-item": {
-              "font-size": "1em",
-              "color": "#ffffff",
-              "googleLink": "https://fonts.googleapis.com/css?family=Roboto+Condensed:400,300,700",
-              "font-family": "'Roboto Condensed', sans-serif"
-            },
-            ".navbar, .dropdown-menu": {
-              "background": "#27aae0"
-            },
-            ".dropdown-menu .dropdown-toggle[aria-expanded=\"true\"], .dropdown-menu a:hover, .dropdown-menu a:focus": {
-              "background": "#1e9fd4"
-            },
-            ".navbar-toggler": {
-              "color": "#ffffff"
-            }
-          },
+          "_afterNavbarItem": ".mbr-section > .mbr-box__magnet",
           "_tags": [
             "Theme"
           ],
-          "_name": "dropdown-menu",
-          "_anchor": "dropdown-menu-1",
-          "_params": {
-            "bgColor": "#27aae0",
-            "fontSize": 1,
-            "fontName": {
-              "name": "Roboto Condensed",
-              "url": "https://fonts.googleapis.com/css?family=Roboto+Condensed:400,300,700",
-              "css": "'Roboto Condensed', sans-serif"
-            },
-            "fontColor": "#ffffff",
-            "transparent": false,
-            "sticky": true,
-            "logo": true,
-            "showBrand": true,
-            "hideButtons": false
-          },
-          "logo": {
-            "image": {
-              "active": true,
-              "src": "@PROJECT_PATH@/assets/images/favicon-js-logo-128x128.jpg",
-              "class": "",
-              "height": 128,
-              "alt": "Mobirise",
-              "link": "https://ajitmishra.github.io/blog",
-              "title": "",
-              "linkInNewWindow": false
-            }
-          },
-          "brand": "<a class=\"text-white\" data-app-selector=\".navbar-brand a\" data-app-btn=\"true\" href=\"https://ajitmishra.github.io/blog\" data-app-placeholder=\"Type Brand Name\" data-toolbar=\"-mbrBtnMove,-mbrBtnAdd,-mbrBtnRemove,mbrColor\">Join Study's Blog</a>",
-          "items": "<li class=\"nav-item\"><a data-app-btn=\"true\" class=\"nav-link link\" href=\"https://ajitmishra.github.io\">HOME</a></li><li class=\"nav-item\"><a data-app-btn=\"true\" class=\"nav-link link\" href=\"https://ajitmishra.github.io/page1.html\">ABOUT</a></li><li class=\"nav-item\"><a data-app-btn=\"true\" class=\"nav-link link\" href=\"https://ajitmishra.github.io/services\">SERVICES</a></li><li class=\"nav-item\"><a data-app-btn=\"true\" class=\"nav-link link\" href=\"https://joinstudy.moodlecloud.com\">CLASSES</a></li><li class=\"nav-item\"><a data-app-btn=\"true\" class=\"nav-link link\" href=\"https://ajitmishra.github.io/page2.html\">CONTACT</a></li><li class=\"nav-item nav-btn\"><a data-app-btn=\"true\" data-button=\"\" data-app-selector=\".btn\" class=\"nav-link btn btn-default btn-default-outline\" href=\"index.html\">BLOGS</a></li>"
-        },
-        {
-          "_inherit": "msg-box5",
-          "_tags": [
-            "Theme"
-          ],
+          "_name": "header1",
           "_styles": {
-            ".mbr-header__text": {
-              "color": "#ffffff"
-            },
-            ".mbr-header__subtext": {
-              "color": "#ffffff"
-            },
-            ".mbr-article": {
-              "color": "#ffffff"
+            "H1": {
+              "font-size": "36px"
             }
           },
-          "_name": "msg-box4",
-          "_anchor": "msg-box4-2",
+          "_anchor": "header1-12",
           "_params": {
-            "imageSize": "45",
-            "paddingTop": "2",
-            "paddingBottom": "2",
-            "bgImageRadio": false,
             "parallax": true,
-            "bgImage": "images/bg3.jpg",
-            "bgColor": "#1abc9c",
-            "bgColorRadio": true,
+            "bgImageRadio": true,
+            "bgImage": "@PROJECT_PATH@/assets/images/online-tuition-image-2000x1500.jpg",
+            "bgColor": "#4c6972",
+            "bgColorRadio": false,
             "bgVideo": {
               "url": "http://www.youtube.com/watch?v=uNCr7NdOJgw"
             },
             "bgVideoRadio": false,
-            "overlay": false,
-            "overlayOpacity": 0.5,
+            "contentAlign": "center",
+            "overlay": true,
+            "overlayOpacity": "0.5",
             "overlayColor": "#222",
-            "inverse": false,
             "showTitle": true,
-            "showMeta": false,
             "showText": true,
-            "showButtons": true
+            "showButtons": true,
+            "showArrow": true
           },
-          "media": {
-            "image": {
-              "active": true,
-              "class": "mbr-figure__img",
-              "width": 1400,
-              "src": "@PROJECT_PATH@/assets/images/mbr-600x397.jpg",
-              "link": "",
-              "alt": "",
-              "title": "",
-              "linkInNewWindow": false
-            },
-            "video": {
-              "src": "http://www.youtube.com/embed/sOSTC6FM6Bw",
-              "aspectratio": "16:9",
-              "autoplay": false,
-              "loop": false
-            },
-            "iconFont": {
-              "class": "mbr-iconfont mbr-iconfont-msg-box4",
-              "link": "",
-              "size": 0
-            }
-          },
-          "headerAlign": "left",
-          "title": "JOIN STUDY'S BLOG<br>Dedicated to Education",
-          "meta": "By John Smith posted July 30, 2015",
+          "title": "JOIN STUDY'S BLOG<div>Dedicated to Education</div>",
           "text": "Join Study's Blog is dedicated to Education. This Blog keeps you update about Logistics and Supply Chain Industries. Some posts are also related with Mathematics of K12 Education. We have also discuss here about some of our WEB related jobs.",
-          "button": "<a data-app-btn=\"true\" class=\"mbr-buttons__btn btn btn-lg btn-default\" href=\"#\" data-toolbar=\"-mbrBtnMove\">SCROLL DOWN TO READ MORE</a>"
+          "buttons": "<a data-app-btn=\"true\" class=\"mbr-buttons__btn btn btn-lg btn-danger animated fadeInUp delay\" href=\"https://joinstudy.moodlecloud.com/\" data-toolbar=\"-mbrBtnMove\">CLASSROOM</a> <a data-app-btn=\"true\" class=\"mbr-buttons__btn btn btn-lg animated fadeInUp delay btn-info\" href=\"http://joinstudy.in/career\" data-toolbar=\"-mbrBtnMove\">CAREER</a>"
         },
         {
           "_tags": [
@@ -164,13 +71,13 @@
           "_params": {
             "paddingTop": "1",
             "paddingBottom": "1",
-            "bgImageRadio": false,
-            "parallax": true,
+            "bgImageRadio": true,
+            "parallax": false,
             "bgImage": "images/bg3.jpg",
-            "bgColor": "#1abc9c",
-            "bgColorRadio": true,
-            "overlay": false,
-            "overlayOpacity": 0.5,
+            "bgColor": "#ffffff",
+            "bgColorRadio": false,
+            "overlay": true,
+            "overlayOpacity": "0.3",
             "overlayColor": "#222",
             "showTitle": true
           },
@@ -187,191 +94,216 @@
               }
             }
           },
-          "buttons": "<a data-app-btn=\"true\" type=\"submit\" class=\"mbr-buttons__btn btn btn-lg btn-danger\">SUBSCRIBE</a>"
+          "buttons": "<a data-app-btn=\"true\" type=\"submit\" class=\"mbr-buttons__btn btn btn-lg btn-danger\">SUBSCRIBE</a>",
+          "_styles": {
+            ".mbr-header__text": {
+              "color": "#ffffff"
+            }
+          }
         },
         {
-          "_inherit": "features1",
+          "_styles": {
+            ".mbr-header .mbr-header__text": {
+              "text-align": "center",
+              "color": "#ffffff"
+            },
+            ".mbr-header .mbr-header__subtext": {
+              "text-align": "center",
+              "color": "#ffffff",
+              "font-size": "18px"
+            },
+            ".mbr-article": {
+              "color": "#ffffff"
+            }
+          },
           "_tags": [
             "Theme"
           ],
-          "_name": "content4",
-          "_anchor": "content4-i",
+          "_name": "msg-box3",
+          "_anchor": "msg-box3-1b",
           "_params": {
+            "showCaption": "noCaption",
             "paddingTop": "2",
-            "paddingBottom": "2",
-            "bgImageRadio": false,
-            "parallax": true,
+            "paddingBottom": "1",
+            "showTitle": true,
+            "showText": true,
+            "showButton": true,
+            "bgImageRadio": true,
+            "parallax": false,
             "bgImage": "images/bg3.jpg",
             "bgColor": "#fff",
-            "bgColorRadio": true,
+            "bgColorRadio": false,
             "bgVideo": {
               "url": "http://www.youtube.com/watch?v=uNCr7NdOJgw"
             },
             "bgVideoRadio": false,
-            "overlay": false,
-            "overlayOpacity": 0.5,
+            "overlay": true,
+            "overlayOpacity": "0.3",
             "overlayColor": "#222",
-            "showHeader": true,
-            "showSubheader": true,
-            "columns": "3",
-            "showImages": false,
-            "showTitles": true,
-            "showCaptions": true,
-            "showButtons": false
+            "showMeta": true,
+            "darkBackground": false
           },
-          "headerAlign": "left",
-          "header": "CATEGORIES OF BLOG POSTS &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp;",
-          "subheader": "By Ajit Kumar Mishra (MILT)",
-          "media1": {
-            "image": {
-              "active": true,
-              "src": "images/bootstrap.png",
-              "class": "mbr-figure__img",
-              "width": 600
-            },
-            "video": {
-              "class": "mbr-figure__img",
-              "src": "http://www.youtube.com/embed/sOSTC6FM6Bw"
-            },
-            "iconFont": {
-              "class": "mbr-iconfont mbr-iconfont-features1",
-              "link": "",
-              "size": 0
-            }
-          },
-          "title1": "Logistics and Supply Chain",
-          "caption1": "<a href=\"page1.html\" class=\"text-info\">Great journey of Indian Scientists</a><br><a href=\"page2.html\" class=\"text-info\">New Online Classroom by Join Study</a><br>",
-          "button1": "<a data-app-btn=\"true\" href=\"https://mobirise.com\" class=\"mbr-buttons__btn btn btn-wrap btn-xs-lg btn-default\">LEARN MORE</a>",
-          "media2": {
-            "image": {
-              "active": true,
-              "src": "images/responsive.png",
-              "class": "mbr-figure__img",
-              "width": 600
-            },
-            "video": {
-              "class": "mbr-figure__img",
-              "src": "http://www.youtube.com/embed/sOSTC6FM6Bw"
-            },
-            "iconFont": {
-              "class": "mbr-iconfont mbr-iconfont-features1",
-              "link": "",
-              "size": 0
-            }
-          },
-          "title2": "K12 Education",
-          "caption2": "<a href=\"page1.html\" class=\"text-info\">Great journey of Indian Scientists</a><br><a href=\"page2.html\" class=\"text-info\">New Online Classroom by Join Study</a><br>",
-          "button2": "<a data-app-btn=\"true\" href=\"https://mobirise.com\" class=\"mbr-buttons__btn btn btn-wrap btn-xs-lg btn-default\">LEARN MORE</a>",
-          "media3": {
-            "image": {
-              "active": true,
-              "src": "images/google-fonts.png",
-              "class": "mbr-figure__img",
-              "width": 600
-            },
-            "video": {
-              "class": "mbr-figure__img",
-              "src": "http://www.youtube.com/embed/sOSTC6FM6Bw"
-            },
-            "iconFont": {
-              "class": "mbr-iconfont mbr-iconfont-features1",
-              "link": "",
-              "size": 0
-            }
-          },
-          "title3": "Web Related",
-          "caption3": "<a href=\"page1.html\" class=\"text-info\">Great journey of Indian scientists</a>",
-          "button3": "<a data-app-btn=\"true\" href=\"https://mobirise.com\" class=\"mbr-buttons__btn btn btn-wrap btn-xs-lg btn-default\">LEARN MORE</a>",
-          "media4": {
-            "image": {
-              "active": true,
-              "src": "images/unlimited-websites.png",
-              "class": "mbr-figure__img",
-              "width": 600
-            },
-            "video": {
-              "class": "mbr-figure__img",
-              "src": "http://www.youtube.com/embed/sOSTC6FM6Bw"
-            },
-            "iconFont": {
-              "class": "mbr-iconfont mbr-iconfont-features1",
-              "link": "",
-              "size": 0
-            }
-          },
-          "title4": "UNLIMITED WEBSITES",
-          "caption4": "Mobirise gives you the freedom to develop as many websites as you like given the fact that it is a desktop app.",
-          "button4": "<a data-app-btn=\"true\" href=\"https://mobirise.com\" class=\"mbr-buttons__btn btn btn-wrap btn-xs-lg btn-default\">LEARN MORE</a>",
-          "media5": {
-            "image": {
-              "active": true,
-              "src": "images/blocks.png",
-              "class": "mbr-figure__img",
-              "width": 600
-            },
-            "video": {
-              "class": "mbr-figure__img",
-              "src": "http://www.youtube.com/embed/sOSTC6FM6Bw"
-            },
-            "iconFont": {
-              "class": "mbr-iconfont mbr-iconfont-features1",
-              "link": "",
-              "size": 0
-            }
-          },
-          "title5": "TRENDY WEBSITE BLOCKS",
-          "caption5": "Choose from the large selection of latest pre-made blocks - jumbotrons, hero images, parallax scrolling, video backgrounds, hamburger menu, sticky header and more.",
-          "button5": "<a data-app-btn=\"true\" href=\"https://mobirise.com\" class=\"mbr-buttons__btn btn btn-wrap btn-xs-lg btn-default\">LEARN MORE</a>",
-          "media6": {
-            "image": {
-              "active": true,
-              "src": "images/host.png",
-              "class": "mbr-figure__img",
-              "width": 600
-            },
-            "video": {
-              "class": "mbr-figure__img",
-              "src": "http://www.youtube.com/embed/sOSTC6FM6Bw"
-            },
-            "iconFont": {
-              "class": "mbr-iconfont mbr-iconfont-features1",
-              "link": "",
-              "size": 0
-            }
-          },
-          "title6": "HOST ANYWHERE",
-          "caption6": "Publish your website to a local drive, FTP or host on Amazon S3, Google Drive, Github. Don't limit yourself to just one platform or service provider.",
-          "button6": "<a data-app-btn=\"true\" href=\"https://mobirise.com\" class=\"mbr-buttons__btn btn btn-wrap btn-xs-lg btn-default\">LEARN MORE</a>"
+          "title": "Great journey of Indian Scientists &nbsp; &nbsp;",
+          "meta": "By \"Ajit Kumar Mishra\" (MILT)",
+          "text": "In 1975 The first Indian satellite, Aryabhata, was launched using a Russian rocket. It provided India with the basis of learning satellite technology and designing. Why this first sattelite named with Aryabhatta? Because he is the great Indian scientist and father of Mathematics.",
+          "button": "<a data-app-btn=\"true\" class=\"mbr-buttons__btn btn btn-lg btn-danger\" href=\"the-great-journey-of-indian-scientiests-1.html\" data-toolbar=\"-mbrBtnMove\">READ MORE</a>"
         },
         {
+          "_styles": {
+            ".mbr-header .mbr-header__text": {
+              "text-align": "center",
+              "color": "#ffffff"
+            },
+            ".mbr-header .mbr-header__subtext": {
+              "text-align": "center",
+              "color": "#ffffff",
+              "font-size": "18px"
+            },
+            ".mbr-article": {
+              "color": "#ffffff"
+            }
+          },
           "_tags": [
             "Theme"
           ],
-          "_name": "social-buttons1",
-          "_styles": {
-            ".mbr-header__text": {
-              "font-size": "25px"
-            }
-          },
-          "_anchor": "social-buttons1-d",
+          "_name": "msg-box3",
+          "_anchor": "msg-box3-1c",
           "_params": {
+            "showCaption": "noCaption",
             "paddingTop": "1",
-            "paddingBottom": "0",
-            "bgImageRadio": false,
-            "parallax": true,
+            "paddingBottom": "1",
+            "showTitle": true,
+            "showText": true,
+            "showButton": true,
+            "bgImageRadio": true,
+            "parallax": false,
             "bgImage": "images/bg3.jpg",
             "bgColor": "#fff",
-            "bgColorRadio": true,
-            "overlay": false,
-            "overlayOpacity": 0.5,
+            "bgColorRadio": false,
+            "bgVideo": {
+              "url": "http://www.youtube.com/watch?v=uNCr7NdOJgw"
+            },
+            "bgVideoRadio": false,
+            "overlay": true,
+            "overlayOpacity": "0.3",
             "overlayColor": "#222",
-            "inverse": false,
-            "counters": true,
-            "facebook": true,
-            "google": true,
-            "twitter": true
+            "showMeta": true,
+            "darkBackground": false
           },
-          "text": "SHARE THIS PAGE!"
+          "title": "New Online Classroom by Join Study &nbsp;",
+          "meta": "By \"Ajit Kumar Mishra\" (MILT)",
+          "text": "After a lots of demand by students and trainees Join Study has launched its new Classroom with the support of Moodle Cloud which is very easy to use for everyone. Our moodle cloud classroom has also android mobile app which support your learning everytime.",
+          "button": "<a data-app-btn=\"true\" class=\"mbr-buttons__btn btn btn-lg btn-danger\" href=\"new-online-classroom-by-join-study-2.html\" data-toolbar=\"-mbrBtnMove\">READ MORE</a>"
+        },
+        {
+          "_styles": {
+            ".mbr-header .mbr-header__text": {
+              "text-align": "center",
+              "color": "#ffffff"
+            },
+            ".mbr-header .mbr-header__subtext": {
+              "text-align": "center",
+              "font-size": "18px",
+              "color": "#ffffff"
+            },
+            ".mbr-article": {
+              "color": "#ffffff"
+            }
+          },
+          "_tags": [
+            "Theme"
+          ],
+          "_name": "msg-box3",
+          "_anchor": "msg-box3-1n",
+          "_params": {
+            "showCaption": "noCaption",
+            "paddingTop": 3,
+            "paddingBottom": 3,
+            "showTitle": true,
+            "showText": true,
+            "showButton": true,
+            "bgImageRadio": true,
+            "parallax": false,
+            "bgImage": "images/bg3.jpg",
+            "bgColor": "#fff",
+            "bgColorRadio": false,
+            "bgVideo": {
+              "url": "http://www.youtube.com/watch?v=uNCr7NdOJgw"
+            },
+            "bgVideoRadio": false,
+            "overlay": true,
+            "overlayOpacity": "0.3",
+            "overlayColor": "#222",
+            "showMeta": true,
+            "darkBackground": false
+          },
+          "title": "Effects Of GST On Logistics Industries&nbsp;",
+          "meta": "By \"Ajit Kumar Mishra\" (MILT)",
+          "text": "India's greatest tax reform - replacing an array of provincial duties with a nationwide goods and services tax - is transforming the logistics industry in a country where moving stuff around is notoriously difficult to do.",
+          "button": "<a data-app-btn=\"true\" class=\"mbr-buttons__btn btn btn-lg btn-danger\" href=\"effects-of-gst-on-logistics-industries-3.html\" data-toolbar=\"-mbrBtnMove\">READ MORE</a>"
+        },
+        {
+          "_styles": {
+            ".hide-buttons [data-button]": {
+              "display": "none !important"
+            },
+            ".navbar-brand a": {
+              "font-size": "24px"
+            },
+            ".nav .link, .dropdown-item": {
+              "font-size": "1em",
+              "color": "#ffffff",
+              "googleLink": "https://fonts.googleapis.com/css?family=Oswald:400,300,700",
+              "font-family": "'Oswald', sans-serif"
+            },
+            ".navbar, .dropdown-menu": {
+              "background": "#27aae0"
+            },
+            ".dropdown-menu .dropdown-toggle[aria-expanded=\"true\"], .dropdown-menu a:hover, .dropdown-menu a:focus": {
+              "background": "#1e9fd4"
+            },
+            ".navbar-toggler": {
+              "color": "#ffffff"
+            },
+            ".btn": {
+              "font-family": "'Oswald', sans-serif",
+              "googleLink": "https://fonts.googleapis.com/css?family=Oswald:400,300,700"
+            }
+          },
+          "_tags": [
+            "Theme"
+          ],
+          "_name": "dropdown-menu",
+          "_anchor": "dropdown-menu-1",
+          "_params": {
+            "bgColor": "#27aae0",
+            "fontSize": 1,
+            "fontName": {
+              "name": "Oswald",
+              "url": "https://fonts.googleapis.com/css?family=Oswald:400,300,700",
+              "css": "'Oswald', sans-serif"
+            },
+            "fontColor": "#ffffff",
+            "transparent": true,
+            "sticky": true,
+            "logo": true,
+            "showBrand": true,
+            "hideButtons": true
+          },
+          "logo": {
+            "image": {
+              "active": true,
+              "src": "@PROJECT_PATH@/assets/images/favicon-js-logo-128x128.jpg",
+              "class": "",
+              "height": 128,
+              "alt": "Mobirise",
+              "link": "http://joinstudy.in",
+              "title": "",
+              "linkInNewWindow": false
+            }
+          },
+          "brand": "<a class=\"text-white\" data-app-selector=\".navbar-brand a\" data-app-btn=\"true\" href=\"http://joinstudy.in/blog\" data-app-placeholder=\"Type Brand Name\" data-toolbar=\"-mbrBtnMove,-mbrBtnAdd,-mbrBtnRemove,mbrColor\">Join Study's Blog</a>",
+          "items": "<li class=\"nav-item\"><a data-app-btn=\"true\" class=\"nav-link link\" href=\"http://joinstudy.in\">HOME</a></li><li class=\"nav-item dropdown\"><a data-app-btn=\"true\" class=\"nav-link link dropdown-toggle\" href=\"#\" data-toggle=\"dropdown-submenu\" aria-expanded=\"false\">BLOGS</a><div class=\"dropdown-menu\"><a data-app-btn=\"true\" class=\"dropdown-item\" href=\"index.html\">BLOG</a><a data-app-btn=\"true\" class=\"dropdown-item\" href=\"https://drive.google.com/open?id=0B_5vZLWJFHp8NEdMMHhOSk9aejg\">PGF BLOGS</a></div></li><li class=\"nav-item dropdown\"><a data-app-btn=\"true\" class=\"nav-link link dropdown-toggle\" href=\"#\" data-toggle=\"dropdown-submenu\" aria-expanded=\"false\">ABOUT</a><div class=\"dropdown-menu\"><a data-app-btn=\"true\" class=\"dropdown-item\" href=\"http://joinstudy.in/about-us-1.html\">ABOUT US</a><a data-app-btn=\"true\" class=\"dropdown-item\" href=\"http://joinstudy.in/testimonials\">TESTIMONIALS</a></div></li><li class=\"nav-item dropdown\"><a data-app-btn=\"true\" class=\"nav-link link dropdown-toggle\" href=\"#\" data-toggle=\"dropdown-submenu\" aria-expanded=\"false\">CLASSES</a><div class=\"dropdown-menu\"><a data-app-btn=\"true\" class=\"dropdown-item\" href=\"http://joinstudy.in/classes\">CLASSES</a><a data-app-btn=\"true\" class=\"dropdown-item\" href=\"https://joinstudy.moodlecloud.com\">CLASSROOM</a><a data-app-btn=\"true\" class=\"dropdown-item\" href=\"http://joinstudy.in/career\">CAREER</a><a data-app-btn=\"true\" class=\"dropdown-item\" href=\"http://joinstudy.in/services\">SERVICES</a></div></li><li class=\"nav-item dropdown open\"><a data-app-btn=\"true\" class=\"nav-link link dropdown-toggle\" href=\"#\" data-toggle=\"dropdown-submenu\" aria-expanded=\"true\">CONTACT</a><div class=\"dropdown-menu\"><a data-app-btn=\"true\" class=\"dropdown-item\" href=\"http://joinstudy.in/contact-us-2.html\">CONTACT US</a><a data-app-btn=\"true\" class=\"dropdown-item\" href=\"http://joinstudy.in/privacy-policy-3.html\">PRIVACY POLICY</a></div></li><li class=\"nav-item nav-btn\"><a data-app-btn=\"true\" data-button=\"\" data-app-selector=\".btn\" class=\"nav-link btn btn-default btn-default-outline\" href=\"index.html\">BLOGS</a></li>"
         },
         {
           "_tags": [
@@ -390,13 +322,13 @@
             "bgImageRadio": false,
             "parallax": true,
             "bgImage": "images/bg3.jpg",
-            "bgColor": "#1abc9c",
+            "bgColor": "#4c6972",
             "bgColorRadio": true,
             "overlay": true,
             "overlayOpacity": 0.8,
             "overlayColor": "#444444"
           },
-          "text": "Copyright (c) 2017 Join Study. <a href=\"https://ajitmishra.github.io/page2.html\" class=\"text-white\">Contact Us</a> &nbsp;| <a class=\"mbr-footer__link text-white\" href=\"https://ajitmishra.github.io/page3.html\">Privacy Policy</a>"
+          "text": "Copyright (c) 2017 Join Study. <a href=\"http://joinstudy.in/contact-us-2.html\" class=\"text-white\">Contact Us</a> &nbsp;| <a class=\"mbr-footer__link text-white\" href=\"http://joinstudy.in/privacy-policy-3.html\">Privacy Policy</a>"
         },
         {
           "_inherit": "msg-box5",
@@ -405,13 +337,19 @@
           ],
           "_styles": {
             ".mbr-header__text": {
-              "color": "#ffffff"
+              "color": "#475577"
             },
             ".mbr-header__subtext": {
               "color": "#ffffff"
             },
             ".mbr-article": {
               "color": "#ffffff"
+            },
+            ".mbr-article P": {
+              "color": "#4c6972"
+            },
+            ".mbr-article DIV": {
+              "color": "#4c6972"
             }
           },
           "_name": "msg-box4",
@@ -421,16 +359,16 @@
             "paddingTop": "1",
             "paddingBottom": "1",
             "bgImageRadio": false,
-            "parallax": true,
+            "parallax": false,
             "bgImage": "images/bg3.jpg",
-            "bgColor": "#1abc9c",
+            "bgColor": "#efefef",
             "bgColorRadio": true,
             "bgVideo": {
               "url": "http://www.youtube.com/watch?v=uNCr7NdOJgw"
             },
             "bgVideoRadio": false,
-            "overlay": false,
-            "overlayOpacity": 0.5,
+            "overlay": true,
+            "overlayOpacity": "0.2",
             "overlayColor": "#222",
             "inverse": true,
             "showTitle": true,
@@ -465,7 +403,7 @@
           "title": "BLOG AUTHOR",
           "meta": "By John Smith posted July 30, 2015",
           "text": "<p><i><b>AJIT KUMAR MISHRA (MILT)</b></i></p><p>B.Sc.(Math Hon’s), &nbsp; B.C.A., &nbsp; Diploma in Logistics &amp; MMT, MBA (Logistics)<br></p><p></p><div>Associate Member of “The Chartered Institute of Logistics &amp; Transport- India”.</div><p></p>",
-          "button": "<a data-app-btn=\"true\" class=\"mbr-buttons__btn btn btn-lg btn-default\" href=\"https://drive.google.com/open?id=0B_5vZLWJFHp8NEdMMHhOSk9aejg\" data-toolbar=\"-mbrBtnMove\">VISIT MY PDF BLOGS</a>"
+          "button": "<a data-app-btn=\"true\" class=\"mbr-buttons__btn btn btn-lg btn-info\" href=\"https://drive.google.com/open?id=0B_5vZLWJFHp8NEdMMHhOSk9aejg\" data-toolbar=\"-mbrBtnMove\">VISIT MY PDF BLOGS</a>"
         },
         {
           "_tags": [
@@ -479,18 +417,101 @@
             "bgImageRadio": false,
             "parallax": true,
             "bgImage": "images/bg3.jpg",
-            "bgColor": "#1abc9c",
+            "bgColor": "#efefef",
             "bgColorRadio": true,
-            "overlay": false,
-            "overlayOpacity": 0.5,
+            "overlay": true,
+            "overlayOpacity": "0.2",
             "overlayColor": "#222"
           },
           "text": "FOLLOW ME",
-          "icons": "<a data-app-btn=\"true\" class=\"mbr-social-icons__icon socicon-bg-twitter\" title=\"Twitter\" target=\"_blank\" href=\"https://twitter.com/JoinStudy\" data-toolbar=\"-mbrBtnAdd,-mbrBtnMove,-mbrFonts,-mbrFontSize\"><i class=\"socicon socicon-twitter\"></i></a> <a data-app-btn=\"true\" class=\"mbr-social-icons__icon socicon-bg-facebook\" title=\"Facebook\" target=\"_blank\" href=\"https://www.facebook.com/joinstudypage\" data-toolbar=\"-mbrBtnAdd,-mbrBtnMove,-mbrFonts,-mbrFontSize\"><i class=\"socicon socicon-facebook\"></i></a> <a data-app-btn=\"true\" class=\"mbr-social-icons__icon socicon-bg-googleplus\" title=\"Google+\" target=\"_blank\" href=\"https://plus.google.com/u/0/+JoinstudyIn/posts\" data-toolbar=\"-mbrBtnAdd,-mbrBtnMove,-mbrFonts,-mbrFontSize\"><i class=\"socicon socicon-googleplus\"></i></a> <a data-app-btn=\"true\" class=\"mbr-social-icons__icon socicon-bg-youtube\" title=\"YouTube\" target=\"_blank\" href=\"http://www.youtube.com/user/megaonlinetutor\" data-toolbar=\"-mbrBtnAdd,-mbrBtnMove,-mbrFonts,-mbrFontSize\"><i class=\"socicon socicon-youtube\"></i></a>  <a data-app-btn=\"true\" class=\"mbr-social-icons__icon socicon-bg-pinterest\" title=\"Pinterest\" target=\"_blank\" href=\"https://www.pinterest.com/ajitmishra/\" data-toolbar=\"-mbrBtnAdd,-mbrBtnMove,-mbrFonts,-mbrFontSize\"><i class=\"socicon socicon-pinterest\"></i></a> <a data-app-btn=\"true\" class=\"mbr-social-icons__icon socicon-bg-github\" title=\"GitHub\" target=\"_blank\" href=\"https://github.com/ajitmishra\" data-toolbar=\"-mbrBtnAdd,-mbrBtnMove,-mbrFonts,-mbrFontSize\"><i class=\"socicon socicon-github\"></i></a>  <a data-app-btn=\"true\" class=\"mbr-social-icons__icon socicon-bg-tumblr\" title=\"Tumblr\" target=\"_blank\" href=\"http://ajitmishra.tumblr.com/\" data-toolbar=\"-mbrBtnAdd,-mbrBtnMove,-mbrFonts,-mbrFontSize\"><i class=\"socicon socicon-tumblr\"></i></a> <a data-app-btn=\"true\" class=\"mbr-social-icons__icon socicon-bg-linkedin\" title=\"LinkedIn\" target=\"_blank\" href=\"https://www.linkedin.com/in/ajitmishra71\" data-toolbar=\"-mbrBtnAdd,-mbrBtnMove,-mbrFonts,-mbrFontSize\"><i class=\"socicon socicon-linkedin\"></i></a> "
+          "icons": "<a data-app-btn=\"true\" class=\"mbr-social-icons__icon socicon-bg-twitter\" title=\"Twitter\" target=\"_blank\" href=\"https://twitter.com/JoinStudy\" data-toolbar=\"-mbrBtnAdd,-mbrBtnMove,-mbrFonts,-mbrFontSize\"><i class=\"socicon socicon-twitter\"></i></a> <a data-app-btn=\"true\" class=\"mbr-social-icons__icon socicon-bg-facebook\" title=\"Facebook\" target=\"_blank\" href=\"https://www.facebook.com/joinstudypage\" data-toolbar=\"-mbrBtnAdd,-mbrBtnMove,-mbrFonts,-mbrFontSize\"><i class=\"socicon socicon-facebook\"></i></a> <a data-app-btn=\"true\" class=\"mbr-social-icons__icon socicon-bg-googleplus\" title=\"Google+\" target=\"_blank\" href=\"https://plus.google.com/u/0/+JoinstudyIn/posts\" data-toolbar=\"-mbrBtnAdd,-mbrBtnMove,-mbrFonts,-mbrFontSize\"><i class=\"socicon socicon-googleplus\"></i></a> <a data-app-btn=\"true\" class=\"mbr-social-icons__icon socicon-bg-youtube\" title=\"YouTube\" target=\"_blank\" href=\"http://www.youtube.com/user/megaonlinetutor\" data-toolbar=\"-mbrBtnAdd,-mbrBtnMove,-mbrFonts,-mbrFontSize\"><i class=\"socicon socicon-youtube\"></i></a>  <a data-app-btn=\"true\" class=\"mbr-social-icons__icon socicon-bg-pinterest\" title=\"Pinterest\" target=\"_blank\" href=\"https://www.pinterest.com/ajitmishra/\" data-toolbar=\"-mbrBtnAdd,-mbrBtnMove,-mbrFonts,-mbrFontSize\"><i class=\"socicon socicon-pinterest\"></i></a> <a data-app-btn=\"true\" class=\"mbr-social-icons__icon socicon-bg-github\" title=\"GitHub\" target=\"_blank\" href=\"https://github.com/ajitmishra\" data-toolbar=\"-mbrBtnAdd,-mbrBtnMove,-mbrFonts,-mbrFontSize\"><i class=\"socicon socicon-github\"></i></a>  <a data-app-btn=\"true\" class=\"mbr-social-icons__icon socicon-bg-tumblr\" title=\"Tumblr\" target=\"_blank\" href=\"http://ajitmishra.tumblr.com/\" data-toolbar=\"-mbrBtnAdd,-mbrBtnMove,-mbrFonts,-mbrFontSize\"><i class=\"socicon socicon-tumblr\"></i></a> <a data-app-btn=\"true\" class=\"mbr-social-icons__icon socicon-bg-linkedin\" title=\"LinkedIn\" target=\"_blank\" href=\"https://www.linkedin.com/in/ajitmishra71\" data-toolbar=\"-mbrBtnAdd,-mbrBtnMove,-mbrFonts,-mbrFontSize\"><i class=\"socicon socicon-linkedin\"></i></a> ",
+          "_styles": {
+            ".mbr-header__text": {
+              "color": "#475577"
+            }
+          }
+        },
+        {
+          "_tags": [
+            "Theme"
+          ],
+          "_name": "contacts1",
+          "_styles": {
+            "STRONG": {
+              "font-size": "21px"
+            },
+            "P": {
+              "color": "#ffffff"
+            }
+          },
+          "_anchor": "contacts1-13",
+          "_params": {
+            "paddingTop": 3,
+            "paddingBottom": 3,
+            "bgImageRadio": false,
+            "parallax": false,
+            "bgImage": "images/bg3.jpg",
+            "bgColor": "#4c6972",
+            "bgColorRadio": true,
+            "overlay": true,
+            "overlayOpacity": "0.2",
+            "overlayColor": "#3C3C3C"
+          },
+          "logo": {
+            "image": {
+              "src": "@PROJECT_PATH@/assets/images/favicon-js-logo-128x128.png",
+              "class": "mbr-contacts__img mbr-contacts__img--left",
+              "width": 265,
+              "active": true,
+              "link": "http://joinstudy.in",
+              "alt": "",
+              "title": "",
+              "linkInNewWindow": false
+            },
+            "iconFont": {
+              "class": "mbr-iconfont mbr-iconfont-contacts1",
+              "link": "https://mobirise.com",
+              "size": 0
+            }
+          },
+          "text1": "<strong>ADDRESS</strong><br>Join Study,<br>Barari, Bhagalpur,<br>Bihar, India.<br>Pin- 812003",
+          "text2": "<strong>CONTACTS</strong><br>\nEmail: admin@joinstudy.in<br>\nPhone: +919525664348<br>Whatsapp: +919608924821",
+          "text3": "<p class=\"mbr-contacts__text\"><strong>LINKS</strong></p><ul class=\"mbr-contacts__list\"><li><a class=\"mbr-contacts__link text-white\" href=\"http://joinstudy.in/services\">Website builder</a></li><li><a href=\"https://joinstudy.moodlecloud.com\" class=\"text-white\">Classroom</a><a class=\"mbr-contacts__link text-gray\" href=\"https://mobirise.com/mobirise-free-win.zip\"></a></li><li><a href=\"http://joinstudy.in/contact-us-2.html\" class=\"text-white\">Contact Us</a><a class=\"mbr-contacts__link text-gray\" href=\"https://mobirise.com/mobirise-free-mac.zip\"></a></li></ul>"
+        },
+        {
+          "_tags": [
+            "Theme"
+          ],
+          "_name": "social-buttons1",
+          "_styles": {
+            ".mbr-header__text": {
+              "font-size": "25px",
+              "color": "#ffffff"
+            }
+          },
+          "_anchor": "social-buttons1-d",
+          "_params": {
+            "paddingTop": "1",
+            "paddingBottom": "0",
+            "bgImageRadio": false,
+            "parallax": false,
+            "bgImage": "images/bg3.jpg",
+            "bgColor": "#4c6972",
+            "bgColorRadio": true,
+            "overlay": true,
+            "overlayOpacity": "0.2",
+            "overlayColor": "#222",
+            "inverse": false,
+            "counters": true,
+            "facebook": true,
+            "google": true,
+            "twitter": true
+          },
+          "text": "SHARE THIS PAGE!"
         }
       ]
     },
-    "page1.html": {
+    "the-great-journey-of-indian-scientiests-1.html": {
       "settings": {
         "title": "Great Journey of Indian Scientists",
         "meta_descr": "",
@@ -499,65 +520,6 @@
         "html_before": ""
       },
       "components": [
-        {
-          "_styles": {
-            ".hide-buttons [data-button]": {
-              "display": "none !important"
-            },
-            ".navbar-brand a": {
-              "font-size": "24px"
-            },
-            ".nav .link, .dropdown-item": {
-              "font-size": "1em",
-              "color": "#ffffff",
-              "googleLink": "https://fonts.googleapis.com/css?family=Roboto+Condensed:400,300,700",
-              "font-family": "'Roboto Condensed', sans-serif"
-            },
-            ".navbar, .dropdown-menu": {
-              "background": "#27aae0"
-            },
-            ".dropdown-menu .dropdown-toggle[aria-expanded=\"true\"], .dropdown-menu a:hover, .dropdown-menu a:focus": {
-              "background": "#1e9fd4"
-            },
-            ".navbar-toggler": {
-              "color": "#ffffff"
-            }
-          },
-          "_tags": [
-            "Theme"
-          ],
-          "_name": "dropdown-menu",
-          "_anchor": "dropdown-menu-j",
-          "_params": {
-            "bgColor": "#27aae0",
-            "fontSize": 1,
-            "fontName": {
-              "name": "Roboto Condensed",
-              "url": "https://fonts.googleapis.com/css?family=Roboto+Condensed:400,300,700",
-              "css": "'Roboto Condensed', sans-serif"
-            },
-            "fontColor": "#ffffff",
-            "transparent": false,
-            "sticky": true,
-            "logo": true,
-            "showBrand": true,
-            "hideButtons": false
-          },
-          "logo": {
-            "image": {
-              "active": true,
-              "src": "@PROJECT_PATH@/assets/images/favicon-js-logo-128x128.jpg",
-              "class": "",
-              "height": 128,
-              "alt": "Mobirise",
-              "link": "https://ajitmishra.github.io/blog",
-              "title": "",
-              "linkInNewWindow": false
-            }
-          },
-          "brand": "<a class=\"text-white\" data-app-selector=\".navbar-brand a\" data-app-btn=\"true\" href=\"https://ajitmishra.github.io/blog\" data-app-placeholder=\"Type Brand Name\" data-toolbar=\"-mbrBtnMove,-mbrBtnAdd,-mbrBtnRemove,mbrColor\">Join Study's Blog</a>",
-          "items": "<li class=\"nav-item\"><a data-app-btn=\"true\" class=\"nav-link link\" href=\"https://ajitmishra.github.io\">HOME</a></li><li class=\"nav-item\"><a data-app-btn=\"true\" class=\"nav-link link\" href=\"https://ajitmishra.github.io/page1.html\">ABOUT</a></li><li class=\"nav-item\"><a data-app-btn=\"true\" class=\"nav-link link\" href=\"https://ajitmishra.github.io/services\">SERVICES</a></li><li class=\"nav-item\"><a data-app-btn=\"true\" class=\"nav-link link\" href=\"https://joinstudy.moodlecloud.com\">CLASSES</a></li><li class=\"nav-item\"><a data-app-btn=\"true\" class=\"nav-link link\" href=\"https://ajitmishra.github.io/page2.html\">CONTACT</a></li><li class=\"nav-item nav-btn\"><a data-app-btn=\"true\" data-button=\"\" data-app-selector=\".btn\" class=\"nav-link btn btn-default btn-default-outline\" href=\"index.html\">BLOGS</a></li>"
-        },
         {
           "_inherit": "msg-box5",
           "_tags": [
@@ -580,16 +542,16 @@
             "imageSize": "45",
             "paddingTop": "2",
             "paddingBottom": "2",
-            "bgImageRadio": false,
+            "bgImageRadio": true,
             "parallax": true,
-            "bgImage": "images/bg3.jpg",
+            "bgImage": "@PROJECT_PATH@/assets/images/online-tuition-image-2000x1500.jpg",
             "bgColor": "#1abc9c",
-            "bgColorRadio": true,
+            "bgColorRadio": false,
             "bgVideo": {
               "url": "http://www.youtube.com/watch?v=uNCr7NdOJgw"
             },
             "bgVideoRadio": false,
-            "overlay": false,
+            "overlay": true,
             "overlayOpacity": 0.5,
             "overlayColor": "#222",
             "inverse": false,
@@ -631,15 +593,23 @@
           "_tags": [
             "Theme"
           ],
+          "_name": "content1",
+          "_anchor": "content1-s",
+          "text": "<p>In 1975 The first Indian satellite, Aryabhata, was launched using a Russian rocket. It provided India with the basis of learning satellite technology and designing. Why this first sattelite named with Aryabhatta? Because he is the great Indian scientist and father of Mathematics.</p><p>Aryabhatta the great ancient Indian scientist. Aryabhata (Sanskrit: आर्यभट; IAST: Āryabhaṭa) or Aryabhata I (476–550 CE) was the first of the major mathematician-astronomers from the classical age of Indian mathematics and Indian astronomy.</p><p>His major work, Aryabhatiya, a compendium of mathematics and astronomy, was extensively referred to in the Indian mathematical literature and has survived to modern times. The mathematical part of the Aryabhatiya covers arithmetic, algebra, plane trigonometry, and spherical trigonometry. It also contains continued fractions, quadratic equations, sums-of-power series, and a table of sines. But he is properly known as inventor of ZERO.</p>Approximation of π<div>Aryabhata worked on the approximation for pai, and may have come to the conclusion that is irrational. In the second part of the Aryabhatiyam he writes:</div><div><br></div><div>caturadhikam śatamaṣṭaguṇam dvāṣaṣṭistathā sahasrāṇām</div><div>ayutadvayaviṣkambhasyāsanno vṛttapariṇāhaḥ.</div><div>\"Add four to 100, multiply by eight, and then add 62,000. By this rule the circumference of a circle with a diameter of 20,000 can be approached.\"</div><div><br></div><div>This implies that the ratio of the circumference to the diameter is ((4 + 100) × 8 + 62000)/20000 = 62832/20000 = 3.1416, which is accurate to five significant figures.</div><div><br></div><div>It is speculated that Aryabhata used the word āsanna (approaching), to mean that not only is this an approximation but that the value is incommensurable (or irrational). If this is correct, it is quite a sophisticated insight, because the irrationality of pi was proved in Europe only in 1761 by Lambert.</div><div>After Aryabhatiya was translated into Arabic (c. 820 CE) this approximation was mentioned in Al-Khwarizmi's book on algebra.<br></div><div><br></div>It is India's first interplanetary mission and ISRO has become the fourth space agency to reach Mars, after the Soviet space program, NASA, and the European Space Agency. It is the first Asian nation to reach Mars orbit, and the first nation in the world to do so in its first attempt.<br><div><br></div><div>The total cost of the mission was approximately ₹450 Crore (US$73 million), making it the least-expensive Mars mission to date. The low cost of the mission was ascribed by K. Radhakrishnan, the chairman of ISRO, to various factors, including a \"modular approach\", few ground tests and long (18–20 hour) working days for scientists. BBC's Jonathan Amos mentioned lower worker costs, home-grown technologies, simpler design, and significantly less complicated payload than NASA's MAVEN.</div><br><div><p>In its thirty ninth flight (PSLV-C37), ISRO's Polar Satellite Launch Vehicle successfully launched the 714 kg Cartosat-2 Series Satellite along with 103 co-passenger satellites today morning (February 15, 2017) from Satish Dhawan Space Centre SHAR, Sriharikota. This is the thirty eighth consecutively successful mission of PSLV.  The total weight of all the 104 satellites carried on-board PSLV-C37 was 1378 kg.</p><div><br></div><div>This all shows the great journey of our scients.</div><h3>Finally We can say that This is the great journey for INVENTION OF ZERO TO OCCUPYING INFINITY (SPACE). really the great journey.</h3></div>"
+        },
+        {
+          "_tags": [
+            "Theme"
+          ],
           "_name": "form2",
           "_anchor": "form2-l",
           "_params": {
-            "paddingTop": "1",
-            "paddingBottom": "1",
+            "paddingTop": "0",
+            "paddingBottom": "2",
             "bgImageRadio": false,
             "parallax": true,
             "bgImage": "images/bg3.jpg",
-            "bgColor": "#1abc9c",
+            "bgColor": "#ffffff",
             "bgColorRadio": true,
             "overlay": false,
             "overlayOpacity": 0.5,
@@ -660,14 +630,6 @@
             }
           },
           "buttons": "<a data-app-btn=\"true\" type=\"submit\" class=\"mbr-buttons__btn btn btn-lg btn-danger\">SUBSCRIBE</a>"
-        },
-        {
-          "_tags": [
-            "Theme"
-          ],
-          "_name": "content1",
-          "_anchor": "content1-s",
-          "text": "<p>In 1975 The first Indian satellite, Aryabhata, was launched using a Russian rocket. It provided India with the basis of learning satellite technology and designing. Why this first sattelite named with Aryabhatta? Because he is the great Indian scientist and father of Mathematics.</p><p>Aryabhatta the great ancient Indian scientist. Aryabhata (Sanskrit: आर्यभट; IAST: Āryabhaṭa) or Aryabhata I (476–550 CE) was the first of the major mathematician-astronomers from the classical age of Indian mathematics and Indian astronomy.</p><p>His major work, Aryabhatiya, a compendium of mathematics and astronomy, was extensively referred to in the Indian mathematical literature and has survived to modern times. The mathematical part of the Aryabhatiya covers arithmetic, algebra, plane trigonometry, and spherical trigonometry. It also contains continued fractions, quadratic equations, sums-of-power series, and a table of sines. But he is properly known as inventor of ZERO.</p>Approximation of π<div>Aryabhata worked on the approximation for pai, and may have come to the conclusion that is irrational. In the second part of the Aryabhatiyam he writes:</div><div><br></div><div>caturadhikam śatamaṣṭaguṇam dvāṣaṣṭistathā sahasrāṇām</div><div>ayutadvayaviṣkambhasyāsanno vṛttapariṇāhaḥ.</div><div>\"Add four to 100, multiply by eight, and then add 62,000. By this rule the circumference of a circle with a diameter of 20,000 can be approached.\"</div><div><br></div><div>This implies that the ratio of the circumference to the diameter is ((4 + 100) × 8 + 62000)/20000 = 62832/20000 = 3.1416, which is accurate to five significant figures.</div><div><br></div><div>It is speculated that Aryabhata used the word āsanna (approaching), to mean that not only is this an approximation but that the value is incommensurable (or irrational). If this is correct, it is quite a sophisticated insight, because the irrationality of pi was proved in Europe only in 1761 by Lambert.</div><div>After Aryabhatiya was translated into Arabic (c. 820 CE) this approximation was mentioned in Al-Khwarizmi's book on algebra.<br></div><div><br></div>It is India's first interplanetary mission and ISRO has become the fourth space agency to reach Mars, after the Soviet space program, NASA, and the European Space Agency. It is the first Asian nation to reach Mars orbit, and the first nation in the world to do so in its first attempt.<br><div><br></div><div>The total cost of the mission was approximately ₹450 Crore (US$73 million), making it the least-expensive Mars mission to date. The low cost of the mission was ascribed by K. Radhakrishnan, the chairman of ISRO, to various factors, including a \"modular approach\", few ground tests and long (18–20 hour) working days for scientists. BBC's Jonathan Amos mentioned lower worker costs, home-grown technologies, simpler design, and significantly less complicated payload than NASA's MAVEN.</div><br><div><p>In its thirty ninth flight (PSLV-C37), ISRO's Polar Satellite Launch Vehicle successfully launched the 714 kg Cartosat-2 Series Satellite along with 103 co-passenger satellites today morning (February 15, 2017) from Satish Dhawan Space Centre SHAR, Sriharikota. This is the thirty eighth consecutively successful mission of PSLV.  The total weight of all the 104 satellites carried on-board PSLV-C37 was 1378 kg.</p><div><br></div><div>This all shows the great journey of our scients.</div><h3>Finally We can say that This is the great journey for INVENTION OF ZERO TO OCCUPYING INFINITY (SPACE). really the great journey.</h3></div>"
         },
         {
           "_tags": [
@@ -716,7 +678,7 @@
             "bgImageRadio": false,
             "parallax": true,
             "bgImage": "images/bg3.jpg",
-            "bgColor": "#1abc9c",
+            "bgColor": "#4c6972",
             "bgColorRadio": true,
             "overlay": true,
             "overlayOpacity": 0.8,
@@ -731,25 +693,31 @@
           ],
           "_styles": {
             ".mbr-header__text": {
-              "color": "#ffffff"
+              "color": "#475577"
             },
             ".mbr-header__subtext": {
               "color": "#ffffff"
             },
             ".mbr-article": {
               "color": "#ffffff"
+            },
+            ".mbr-article P": {
+              "color": "#4c6972"
+            },
+            ".mbr-article DIV": {
+              "color": "#4c6972"
             }
           },
           "_name": "msg-box4",
           "_anchor": "msg-box4-p",
           "_params": {
-            "imageSize": 50,
+            "imageSize": "25",
             "paddingTop": "1",
             "paddingBottom": "1",
             "bgImageRadio": false,
             "parallax": true,
             "bgImage": "images/bg3.jpg",
-            "bgColor": "#1abc9c",
+            "bgColor": "#efefef",
             "bgColorRadio": true,
             "bgVideo": {
               "url": "http://www.youtube.com/watch?v=uNCr7NdOJgw"
@@ -791,7 +759,7 @@
           "title": "BLOG AUTHOR",
           "meta": "By John Smith posted July 30, 2015",
           "text": "<p><i><b>AJIT KUMAR MISHRA (MILT)</b></i></p><p>B.Sc.(Math Hon’s), &nbsp; B.C.A., &nbsp; Diploma in Logistics &amp; MMT, MBA (Logistics)<br></p><p></p><div>Associate Member of “The Chartered Institute of Logistics &amp; Transport- India”.</div><p></p>",
-          "button": "<a data-app-btn=\"true\" class=\"mbr-buttons__btn btn btn-lg btn-default\" href=\"https://drive.google.com/open?id=0B_5vZLWJFHp8NEdMMHhOSk9aejg\" data-toolbar=\"-mbrBtnMove\">VISIT MY PDF BLOGS</a>"
+          "button": "<a data-app-btn=\"true\" class=\"mbr-buttons__btn btn btn-lg btn-info\" href=\"https://joinstudy.moodlecloud.com/\" data-toolbar=\"-mbrBtnMove\">JOIN STUDY'S CLASSROOM</a>"
         },
         {
           "_tags": [
@@ -805,7 +773,7 @@
             "bgImageRadio": false,
             "parallax": true,
             "bgImage": "images/bg3.jpg",
-            "bgColor": "#1abc9c",
+            "bgColor": "#efefef",
             "bgColorRadio": true,
             "overlay": false,
             "overlayOpacity": 0.5,
@@ -838,10 +806,73 @@
           "innerText": "<div class=\"facebookPlaceholder\" data-numposts=\"\"><h2>FACEBOOK COMMENTS WILL BE SHOWN ONLY WHEN YOUR SITE IS ONLINE</h2> <img src=\"@ADDONS_PATH@/facebook-comments/facebook-comments-block/assets/facebook-comments.jpg\"></div>",
           "innerTextGoogle": "<div class=\"googlePlaceholder\" data-numposts=\"\"><h2>GOOGLE COMMENTS WILL BE SHOWN ONLY WHEN YOUR SITE IS ONLINE</h2> <img src=\"@ADDONS_PATH@/facebook-comments/facebook-comments-block/assets/google-comments.jpg\"></div>",
           "innerTextDisqus": "<div class=\"disqusPlaceholder\" data-numposts=\"\"><h2>DISQUS COMMENTS WILL BE SHOWN ONLY WHEN YOUR SITE IS ONLINE</h2> <img src=\"@PROJECT_PATH@/assets/images/disqus-comments.jpg\"></div>"
+        },
+        {
+          "_styles": {
+            ".hide-buttons [data-button]": {
+              "display": "none !important"
+            },
+            ".navbar-brand a": {
+              "font-size": "24px"
+            },
+            ".nav .link, .dropdown-item": {
+              "font-size": "1em",
+              "color": "#ffffff",
+              "googleLink": "https://fonts.googleapis.com/css?family=Oswald:400,300,700",
+              "font-family": "'Oswald', sans-serif"
+            },
+            ".navbar, .dropdown-menu": {
+              "background": "#27aae0"
+            },
+            ".dropdown-menu .dropdown-toggle[aria-expanded=\"true\"], .dropdown-menu a:hover, .dropdown-menu a:focus": {
+              "background": "#1e9fd4"
+            },
+            ".navbar-toggler": {
+              "color": "#ffffff"
+            },
+            ".btn": {
+              "font-family": "'Oswald', sans-serif",
+              "googleLink": "https://fonts.googleapis.com/css?family=Oswald:400,300,700"
+            }
+          },
+          "_tags": [
+            "Theme"
+          ],
+          "_name": "dropdown-menu",
+          "_anchor": "dropdown-menu-t",
+          "_params": {
+            "bgColor": "#27aae0",
+            "fontSize": 1,
+            "fontName": {
+              "name": "Oswald",
+              "url": "https://fonts.googleapis.com/css?family=Oswald:400,300,700",
+              "css": "'Oswald', sans-serif"
+            },
+            "fontColor": "#ffffff",
+            "transparent": true,
+            "sticky": true,
+            "logo": true,
+            "showBrand": true,
+            "hideButtons": true
+          },
+          "logo": {
+            "image": {
+              "active": true,
+              "src": "@PROJECT_PATH@/assets/images/favicon-js-logo-128x128.jpg",
+              "class": "",
+              "height": 128,
+              "alt": "Mobirise",
+              "link": "https://ajitmishra.github.io/blog",
+              "title": "",
+              "linkInNewWindow": false
+            }
+          },
+          "brand": "<a class=\"text-white\" data-app-selector=\".navbar-brand a\" data-app-btn=\"true\" href=\"https://ajitmishra.github.io/blog\" data-app-placeholder=\"Type Brand Name\" data-toolbar=\"-mbrBtnMove,-mbrBtnAdd,-mbrBtnRemove,mbrColor\">Join Study's Blog</a>",
+          "items": "<li class=\"nav-item\"><a data-app-btn=\"true\" class=\"nav-link link\" href=\"http://joinstudy.in\">HOME</a></li><li class=\"nav-item dropdown\"><a data-app-btn=\"true\" class=\"nav-link link dropdown-toggle\" href=\"#\" data-toggle=\"dropdown-submenu\" aria-expanded=\"false\">BLOGS</a><div class=\"dropdown-menu\"><a data-app-btn=\"true\" class=\"dropdown-item\" href=\"index.html\">BLOG</a><a data-app-btn=\"true\" class=\"dropdown-item\" href=\"https://drive.google.com/open?id=0B_5vZLWJFHp8NEdMMHhOSk9aejg\">PGF BLOGS</a></div></li><li class=\"nav-item dropdown\"><a data-app-btn=\"true\" class=\"nav-link link dropdown-toggle\" href=\"#\" data-toggle=\"dropdown-submenu\" aria-expanded=\"false\">ABOUT</a><div class=\"dropdown-menu\"><a data-app-btn=\"true\" class=\"dropdown-item\" href=\"http://joinstudy.in/about-us-1.html\">ABOUT US</a><a data-app-btn=\"true\" class=\"dropdown-item\" href=\"http://joinstudy.in/testimonials\">TESTIMONIALS</a></div></li><li class=\"nav-item dropdown open\"><a data-app-btn=\"true\" class=\"nav-link link dropdown-toggle\" href=\"#\" data-toggle=\"dropdown-submenu\" aria-expanded=\"true\">CLASSES</a><div class=\"dropdown-menu\"><a data-app-btn=\"true\" class=\"dropdown-item\" href=\"http://joinstudy.in/classes\">CLASSES</a><a data-app-btn=\"true\" class=\"dropdown-item\" href=\"https://joinstudy.moodlecloud.com\">CLASSROOM</a><a data-app-btn=\"true\" class=\"dropdown-item\" href=\"http://joinstudy.in/career\">CAREER</a><a data-app-btn=\"true\" class=\"dropdown-item\" href=\"http://joinstudy.in/services\">SERVICES</a></div></li><li class=\"nav-item dropdown\"><a data-app-btn=\"true\" class=\"nav-link link dropdown-toggle\" href=\"#\" data-toggle=\"dropdown-submenu\" aria-expanded=\"false\">CONTACT</a><div class=\"dropdown-menu\"><a data-app-btn=\"true\" class=\"dropdown-item\" href=\"http://joinstudy.in/contact-us-2.html\">CONTACT US</a><a data-app-btn=\"true\" class=\"dropdown-item\" href=\"http://joinstudy.in/privacy-policy-3.html\">PRIVACY POLICY</a></div></li><li class=\"nav-item nav-btn\"><a data-app-btn=\"true\" data-button=\"\" data-app-selector=\".btn\" class=\"nav-link btn btn-default btn-default-outline\" href=\"index.html\">BLOGS</a></li>"
         }
       ]
     },
-    "page2.html": {
+    "new-online-classroom-by-join-study-2.html": {
       "settings": {
         "title": "New Online Classroom by Join Study",
         "meta_descr": "",
@@ -861,8 +892,8 @@
             ".nav .link, .dropdown-item": {
               "font-size": "1em",
               "color": "#ffffff",
-              "googleLink": "https://fonts.googleapis.com/css?family=Roboto+Condensed:400,300,700",
-              "font-family": "'Roboto Condensed', sans-serif"
+              "googleLink": "https://fonts.googleapis.com/css?family=Oswald:400,300,700",
+              "font-family": "'Oswald', sans-serif"
             },
             ".navbar, .dropdown-menu": {
               "background": "#27aae0"
@@ -872,6 +903,10 @@
             },
             ".navbar-toggler": {
               "color": "#ffffff"
+            },
+            ".btn": {
+              "font-family": "'Oswald', sans-serif",
+              "googleLink": "https://fonts.googleapis.com/css?family=Oswald:400,300,700"
             }
           },
           "_tags": [
@@ -883,16 +918,16 @@
             "bgColor": "#27aae0",
             "fontSize": 1,
             "fontName": {
-              "name": "Roboto Condensed",
-              "url": "https://fonts.googleapis.com/css?family=Roboto+Condensed:400,300,700",
-              "css": "'Roboto Condensed', sans-serif"
+              "name": "Oswald",
+              "url": "https://fonts.googleapis.com/css?family=Oswald:400,300,700",
+              "css": "'Oswald', sans-serif"
             },
             "fontColor": "#ffffff",
-            "transparent": false,
+            "transparent": true,
             "sticky": true,
             "logo": true,
             "showBrand": true,
-            "hideButtons": false
+            "hideButtons": true
           },
           "logo": {
             "image": {
@@ -907,7 +942,7 @@
             }
           },
           "brand": "<a class=\"text-white\" data-app-selector=\".navbar-brand a\" data-app-btn=\"true\" href=\"https://ajitmishra.github.io/blog\" data-app-placeholder=\"Type Brand Name\" data-toolbar=\"-mbrBtnMove,-mbrBtnAdd,-mbrBtnRemove,mbrColor\">Join Study's Blog</a>",
-          "items": "<li class=\"nav-item\"><a data-app-btn=\"true\" class=\"nav-link link\" href=\"https://ajitmishra.github.io\">HOME</a></li><li class=\"nav-item\"><a data-app-btn=\"true\" class=\"nav-link link\" href=\"https://ajitmishra.github.io/page1.html\">ABOUT</a></li><li class=\"nav-item\"><a data-app-btn=\"true\" class=\"nav-link link\" href=\"https://ajitmishra.github.io/services\">SERVICES</a></li><li class=\"nav-item\"><a data-app-btn=\"true\" class=\"nav-link link\" href=\"https://joinstudy.moodlecloud.com\">CLASSES</a></li><li class=\"nav-item\"><a data-app-btn=\"true\" class=\"nav-link link\" href=\"https://ajitmishra.github.io/page2.html\">CONTACT</a></li><li class=\"nav-item nav-btn\"><a data-app-btn=\"true\" data-button=\"\" data-app-selector=\".btn\" class=\"nav-link btn btn-default btn-default-outline\" href=\"index.html\">BLOGS</a></li>"
+          "items": "<li class=\"nav-item\"><a data-app-btn=\"true\" class=\"nav-link link\" href=\"http://joinstudy.in\">HOME</a></li><li class=\"nav-item dropdown\"><a data-app-btn=\"true\" class=\"nav-link link dropdown-toggle\" href=\"#\" data-toggle=\"dropdown-submenu\" aria-expanded=\"false\">BLOGS</a><div class=\"dropdown-menu\"><a data-app-btn=\"true\" class=\"dropdown-item\" href=\"index.html\">BLOG</a><a data-app-btn=\"true\" class=\"dropdown-item\" href=\"https://drive.google.com/open?id=0B_5vZLWJFHp8NEdMMHhOSk9aejg\">PGF BLOGS</a></div></li><li class=\"nav-item dropdown\"><a data-app-btn=\"true\" class=\"nav-link link dropdown-toggle\" href=\"#\" data-toggle=\"dropdown-submenu\" aria-expanded=\"false\">ABOUT</a><div class=\"dropdown-menu\"><a data-app-btn=\"true\" class=\"dropdown-item\" href=\"http://joinstudy.in/about-us-1.html\">ABOUT US</a><a data-app-btn=\"true\" class=\"dropdown-item\" href=\"http://joinstudy.in/testimonials\">TESTIMONIALS</a></div></li><li class=\"nav-item dropdown open\"><a data-app-btn=\"true\" class=\"nav-link link dropdown-toggle\" href=\"#\" data-toggle=\"dropdown-submenu\" aria-expanded=\"true\">CLASSES</a><div class=\"dropdown-menu\"><a data-app-btn=\"true\" class=\"dropdown-item\" href=\"http://joinstudy.in/classes\">CLASSES</a><a data-app-btn=\"true\" class=\"dropdown-item\" href=\"https://joinstudy.moodlecloud.com\">CLASSROOM</a><a data-app-btn=\"true\" class=\"dropdown-item\" href=\"http://joinstudy.in/career\">CAREER</a><a data-app-btn=\"true\" class=\"dropdown-item\" href=\"http://joinstudy.in/services\">SERVICES</a></div></li><li class=\"nav-item dropdown\"><a data-app-btn=\"true\" class=\"nav-link link dropdown-toggle\" href=\"#\" data-toggle=\"dropdown-submenu\" aria-expanded=\"false\">CONTACT</a><div class=\"dropdown-menu\"><a data-app-btn=\"true\" class=\"dropdown-item\" href=\"http://joinstudy.in/contact-us-2.html\">CONTACT US</a><a data-app-btn=\"true\" class=\"dropdown-item\" href=\"http://joinstudy.in/privacy-policy-3.html\">PRIVACY POLICY</a></div></li><li class=\"nav-item nav-btn\"><a data-app-btn=\"true\" data-button=\"\" data-app-selector=\".btn\" class=\"nav-link btn btn-default btn-default-outline\" href=\"index.html\">BLOGS</a></li>"
         },
         {
           "_inherit": "msg-box5",
@@ -931,17 +966,17 @@
             "imageSize": "45",
             "paddingTop": "2",
             "paddingBottom": "2",
-            "bgImageRadio": false,
+            "bgImageRadio": true,
             "parallax": true,
-            "bgImage": "images/bg3.jpg",
+            "bgImage": "@PROJECT_PATH@/assets/images/online-tuition-image-2000x1500.jpg",
             "bgColor": "#1abc9c",
-            "bgColorRadio": true,
+            "bgColorRadio": false,
             "bgVideo": {
               "url": "http://www.youtube.com/watch?v=uNCr7NdOJgw"
             },
             "bgVideoRadio": false,
-            "overlay": false,
-            "overlayOpacity": 0.5,
+            "overlay": true,
+            "overlayOpacity": "0.4",
             "overlayColor": "#222",
             "inverse": false,
             "showTitle": true,
@@ -982,6 +1017,14 @@
           "_tags": [
             "Theme"
           ],
+          "_name": "content1",
+          "_anchor": "content1-w",
+          "text": "<p>After a lots of demand by students and trainees <a href=\"http://joinstudy.in\">Join Study</a> has launched its new <a href=\"https://joinstudy.moodlecloud.com\">Classroom</a> with the support of<a href=\"https://joinstudy.moodlecloud.com\"> Moodle Cloud</a> which is very easy to use for everyone. Our <a href=\"https://joinstudy.moodlecloud.com\">moodle cloud classroom</a> has also android mobile app which support your learning everytime. Many services in this <a href=\"https://joinstudy.moodlecloud.com \">classroom </a>is free for everyone. But it is not free for guest users, you have to create your account on <a href=\"https://joinstudy.moodlecloud.com \">our moodle cloud classroom</a> and then you are free to use our all services in this classroom which is free. Only &nbsp;our virtual classroom in this moodle cloud classes is for paid users.</p><p>To join our virtual classes you have to pay the listed fees given on each of the classes. you are welcome to make contact with us by all the given mean of our <a href=\"http://joinstudy.in/page2.html \">Contact </a>menu or in <a href=\"https://joinstudy.moodlecloud.com/mod/forum/discuss.php?d=1 \">Quick Contact Site Anouncement</a> published in <a href=\"https://joinstudy.moodlecloud.com \">our moodle cloud classroom.</a>&nbsp; Some discount offer is also available to check your discount offer <a href=\"https://joinstudy.moodlecloud.com/mod/forum/discuss.php?d=3 \">Click Here.</a></p><p>Your support is very important for us to create more and more free study and learning services for our users. Always write you thoughts and cooments here to improve our services.</p>"
+        },
+        {
+          "_tags": [
+            "Theme"
+          ],
           "_name": "form2",
           "_anchor": "form2-v",
           "_params": {
@@ -990,7 +1033,7 @@
             "bgImageRadio": false,
             "parallax": true,
             "bgImage": "images/bg3.jpg",
-            "bgColor": "#1abc9c",
+            "bgColor": "#ffffff",
             "bgColorRadio": true,
             "overlay": false,
             "overlayOpacity": 0.5,
@@ -1011,14 +1054,6 @@
             }
           },
           "buttons": "<a data-app-btn=\"true\" type=\"submit\" class=\"mbr-buttons__btn btn btn-lg btn-danger\">SUBSCRIBE</a>"
-        },
-        {
-          "_tags": [
-            "Theme"
-          ],
-          "_name": "content1",
-          "_anchor": "content1-w",
-          "text": "<p>After a lots of demand by students and trainees <a href=\"http://joinstudy.in\">Join Study</a> has launched its new <a href=\"https://joinstudy.moodlecloud.com\">Classroom</a> with the support of<a href=\"https://joinstudy.moodlecloud.com\"> Moodle Cloud</a> which is very easy to use for everyone. Our <a href=\"https://joinstudy.moodlecloud.com\">moodle cloud classroom</a> has also android mobile app which support your learning everytime. Many services in this <a href=\"https://joinstudy.moodlecloud.com \">classroom </a>is free for everyone. But it is not free for guest users, you have to create your account on <a href=\"https://joinstudy.moodlecloud.com \">our moodle cloud classroom</a> and then you are free to use our all services in this classroom which is free. Only &nbsp;our virtual classroom in this moodle cloud classes is for paid users.</p><p>To join our virtual classes you have to pay the listed fees given on each of the classes. you are welcome to make contact with us by all the given mean of our <a href=\"http://joinstudy.in/page2.html \">Contact </a>menu or in <a href=\"https://joinstudy.moodlecloud.com/mod/forum/discuss.php?d=1 \">Quick Contact Site Anouncement</a> published in <a href=\"https://joinstudy.moodlecloud.com \">our moodle cloud classroom.</a>&nbsp; Some discount offer is also available to check your discount offer <a href=\"https://joinstudy.moodlecloud.com/mod/forum/discuss.php?d=3 \">Click Here.</a></p><p>Your support is very important for us to create more and more free study and learning services for our users. Always write you thoughts and cooments here to improve our services.</p>"
         },
         {
           "_tags": [
@@ -1067,7 +1102,7 @@
             "bgImageRadio": false,
             "parallax": true,
             "bgImage": "images/bg3.jpg",
-            "bgColor": "#1abc9c",
+            "bgColor": "#4c6972",
             "bgColorRadio": true,
             "overlay": true,
             "overlayOpacity": 0.8,
@@ -1082,25 +1117,31 @@
           ],
           "_styles": {
             ".mbr-header__text": {
-              "color": "#ffffff"
+              "color": "#475577"
             },
             ".mbr-header__subtext": {
               "color": "#ffffff"
             },
             ".mbr-article": {
               "color": "#ffffff"
+            },
+            ".mbr-article P": {
+              "color": "#4c6972"
+            },
+            ".mbr-article DIV": {
+              "color": "#4c6972"
             }
           },
           "_name": "msg-box4",
           "_anchor": "msg-box4-z",
           "_params": {
-            "imageSize": 50,
+            "imageSize": "25",
             "paddingTop": "1",
             "paddingBottom": "1",
             "bgImageRadio": false,
             "parallax": true,
             "bgImage": "images/bg3.jpg",
-            "bgColor": "#1abc9c",
+            "bgColor": "#efefef",
             "bgColorRadio": true,
             "bgVideo": {
               "url": "http://www.youtube.com/watch?v=uNCr7NdOJgw"
@@ -1142,7 +1183,7 @@
           "title": "BLOG AUTHOR",
           "meta": "By John Smith posted July 30, 2015",
           "text": "<p><i><b>AJIT KUMAR MISHRA (MILT)</b></i></p><p>B.Sc.(Math Hon’s), &nbsp; B.C.A., &nbsp; Diploma in Logistics &amp; MMT, MBA (Logistics)<br></p><p></p><div>Associate Member of “The Chartered Institute of Logistics &amp; Transport- India”.</div><p></p>",
-          "button": "<a data-app-btn=\"true\" class=\"mbr-buttons__btn btn btn-lg btn-default\" href=\"https://drive.google.com/open?id=0B_5vZLWJFHp8NEdMMHhOSk9aejg\" data-toolbar=\"-mbrBtnMove\">VISIT MY PDF BLOGS</a>"
+          "button": "<a data-app-btn=\"true\" class=\"mbr-buttons__btn btn btn-lg btn-info\" href=\"https://joinstudy.moodlecloud.com/\" data-toolbar=\"-mbrBtnMove\">JOIN STUDY'S CLASSROOM</a>"
         },
         {
           "_tags": [
@@ -1156,7 +1197,7 @@
             "bgImageRadio": false,
             "parallax": true,
             "bgImage": "images/bg3.jpg",
-            "bgColor": "#1abc9c",
+            "bgColor": "#efefef",
             "bgColorRadio": true,
             "overlay": false,
             "overlayOpacity": 0.5,
@@ -1172,6 +1213,367 @@
           ],
           "_name": "facebook-comments-block",
           "_anchor": "facebook-comments-block-11",
+          "_params": {
+            "postsNumber": 5,
+            "bgImage": "@ADDONS_PATH@/facebook-comments/facebook-comments-block/assets/comments_bg.jpg",
+            "bgImageRadio": false,
+            "bgColor": "#fff",
+            "bgColorRadio": true,
+            "overlay": true,
+            "overlayOpacity": 0.6,
+            "overlayColor": "#7e9b9f",
+            "socialFacebook": false,
+            "socialGoogle": false,
+            "shortName": "joinstudyinblog",
+            "socialDisqus": true
+          },
+          "innerText": "<div class=\"facebookPlaceholder\" data-numposts=\"\"><h2>FACEBOOK COMMENTS WILL BE SHOWN ONLY WHEN YOUR SITE IS ONLINE</h2> <img src=\"@ADDONS_PATH@/facebook-comments/facebook-comments-block/assets/facebook-comments.jpg\"></div>",
+          "innerTextGoogle": "<div class=\"googlePlaceholder\" data-numposts=\"\"><h2>GOOGLE COMMENTS WILL BE SHOWN ONLY WHEN YOUR SITE IS ONLINE</h2> <img src=\"@ADDONS_PATH@/facebook-comments/facebook-comments-block/assets/google-comments.jpg\"></div>",
+          "innerTextDisqus": "<div class=\"disqusPlaceholder\" data-numposts=\"\"><h2>DISQUS COMMENTS WILL BE SHOWN ONLY WHEN YOUR SITE IS ONLINE</h2> <img src=\"@PROJECT_PATH@/assets/images/disqus-comments.jpg\"></div>"
+        }
+      ]
+    },
+    "effects-of-gst-on-logistics-industries-3.html": {
+      "settings": {
+        "title": "Effects Of GST On Logistics Industries",
+        "meta_descr": "",
+        "header_custom": "",
+        "footer_custom": "",
+        "html_before": ""
+      },
+      "components": [
+        {
+          "_styles": {
+            ".hide-buttons [data-button]": {
+              "display": "none !important"
+            },
+            ".navbar-brand a": {
+              "font-size": "24px"
+            },
+            ".nav .link, .dropdown-item": {
+              "font-size": "1em",
+              "color": "#ffffff",
+              "googleLink": "https://fonts.googleapis.com/css?family=Oswald:400,300,700",
+              "font-family": "'Oswald', sans-serif"
+            },
+            ".navbar, .dropdown-menu": {
+              "background": "#27aae0"
+            },
+            ".dropdown-menu .dropdown-toggle[aria-expanded=\"true\"], .dropdown-menu a:hover, .dropdown-menu a:focus": {
+              "background": "#1e9fd4"
+            },
+            ".navbar-toggler": {
+              "color": "#ffffff"
+            },
+            ".btn": {
+              "font-family": "'Oswald', sans-serif",
+              "googleLink": "https://fonts.googleapis.com/css?family=Oswald:400,300,700"
+            }
+          },
+          "_tags": [
+            "Theme"
+          ],
+          "_name": "dropdown-menu",
+          "_anchor": "dropdown-menu-1e",
+          "_params": {
+            "bgColor": "#27aae0",
+            "fontSize": 1,
+            "fontName": {
+              "name": "Oswald",
+              "url": "https://fonts.googleapis.com/css?family=Oswald:400,300,700",
+              "css": "'Oswald', sans-serif"
+            },
+            "fontColor": "#ffffff",
+            "transparent": true,
+            "sticky": true,
+            "logo": true,
+            "showBrand": true,
+            "hideButtons": true
+          },
+          "logo": {
+            "image": {
+              "active": true,
+              "src": "@PROJECT_PATH@/assets/images/favicon-js-logo-128x128.jpg",
+              "class": "",
+              "height": 128,
+              "alt": "Mobirise",
+              "link": "https://ajitmishra.github.io/blog",
+              "title": "",
+              "linkInNewWindow": false
+            }
+          },
+          "brand": "<a class=\"text-white\" data-app-selector=\".navbar-brand a\" data-app-btn=\"true\" href=\"https://ajitmishra.github.io/blog\" data-app-placeholder=\"Type Brand Name\" data-toolbar=\"-mbrBtnMove,-mbrBtnAdd,-mbrBtnRemove,mbrColor\">Join Study's Blog</a>",
+          "items": "<li class=\"nav-item\"><a data-app-btn=\"true\" class=\"nav-link link\" href=\"http://joinstudy.in\">HOME</a></li><li class=\"nav-item dropdown\"><a data-app-btn=\"true\" class=\"nav-link link dropdown-toggle\" href=\"#\" data-toggle=\"dropdown-submenu\" aria-expanded=\"false\">BLOGS</a><div class=\"dropdown-menu\"><a data-app-btn=\"true\" class=\"dropdown-item\" href=\"index.html\">BLOG</a><a data-app-btn=\"true\" class=\"dropdown-item\" href=\"https://drive.google.com/open?id=0B_5vZLWJFHp8NEdMMHhOSk9aejg\">PGF BLOGS</a></div></li><li class=\"nav-item dropdown\"><a data-app-btn=\"true\" class=\"nav-link link dropdown-toggle\" href=\"#\" data-toggle=\"dropdown-submenu\" aria-expanded=\"false\">ABOUT</a><div class=\"dropdown-menu\"><a data-app-btn=\"true\" class=\"dropdown-item\" href=\"http://joinstudy.in/about-us-1.html\">ABOUT US</a><a data-app-btn=\"true\" class=\"dropdown-item\" href=\"http://joinstudy.in/testimonials\">TESTIMONIALS</a></div></li><li class=\"nav-item dropdown open\"><a data-app-btn=\"true\" class=\"nav-link link dropdown-toggle\" href=\"#\" data-toggle=\"dropdown-submenu\" aria-expanded=\"true\">CLASSES</a><div class=\"dropdown-menu\"><a data-app-btn=\"true\" class=\"dropdown-item\" href=\"http://joinstudy.in/classes\">CLASSES</a><a data-app-btn=\"true\" class=\"dropdown-item\" href=\"https://joinstudy.moodlecloud.com\">CLASSROOM</a><a data-app-btn=\"true\" class=\"dropdown-item\" href=\"http://joinstudy.in/career\">CAREER</a><a data-app-btn=\"true\" class=\"dropdown-item\" href=\"http://joinstudy.in/services\">SERVICES</a></div></li><li class=\"nav-item dropdown\"><a data-app-btn=\"true\" class=\"nav-link link dropdown-toggle\" href=\"#\" data-toggle=\"dropdown-submenu\" aria-expanded=\"false\">CONTACT</a><div class=\"dropdown-menu\"><a data-app-btn=\"true\" class=\"dropdown-item\" href=\"http://joinstudy.in/contact-us-2.html\">CONTACT US</a><a data-app-btn=\"true\" class=\"dropdown-item\" href=\"http://joinstudy.in/privacy-policy-3.html\">PRIVACY POLICY</a></div></li><li class=\"nav-item nav-btn\"><a data-app-btn=\"true\" data-button=\"\" data-app-selector=\".btn\" class=\"nav-link btn btn-default btn-default-outline\" href=\"index.html\">BLOGS</a></li>"
+        },
+        {
+          "_inherit": "msg-box5",
+          "_tags": [
+            "Theme"
+          ],
+          "_styles": {
+            ".mbr-header__text": {
+              "color": "#ffffff"
+            },
+            ".mbr-header__subtext": {
+              "color": "#ffffff"
+            },
+            ".mbr-article": {
+              "color": "#ffffff"
+            }
+          },
+          "_name": "msg-box4",
+          "_anchor": "msg-box4-1f",
+          "_params": {
+            "imageSize": "45",
+            "paddingTop": "2",
+            "paddingBottom": "2",
+            "bgImageRadio": true,
+            "parallax": true,
+            "bgImage": "@PROJECT_PATH@/assets/images/online-tuition-image-2000x1500.jpg",
+            "bgColor": "#1abc9c",
+            "bgColorRadio": false,
+            "bgVideo": {
+              "url": "http://www.youtube.com/watch?v=uNCr7NdOJgw"
+            },
+            "bgVideoRadio": false,
+            "overlay": true,
+            "overlayOpacity": "0.5",
+            "overlayColor": "#222",
+            "inverse": false,
+            "showTitle": true,
+            "showMeta": false,
+            "showText": true,
+            "showButtons": true
+          },
+          "media": {
+            "image": {
+              "active": true,
+              "class": "mbr-figure__img",
+              "width": 1400,
+              "src": "@PROJECT_PATH@/assets/images/logistics-image-1-1400x931.jpg",
+              "link": "effects-of-gst-on-logistics-industries-3.html",
+              "alt": "",
+              "title": "",
+              "linkInNewWindow": false
+            },
+            "video": {
+              "src": "http://www.youtube.com/embed/sOSTC6FM6Bw",
+              "aspectratio": "16:9",
+              "autoplay": false,
+              "loop": false
+            },
+            "iconFont": {
+              "class": "mbr-iconfont mbr-iconfont-msg-box4",
+              "link": "",
+              "size": 0
+            }
+          },
+          "headerAlign": "left",
+          "title": "Effects Of GST On Logistics Industries",
+          "meta": "By John Smith posted July 30, 2015",
+          "text": "India's greatest tax reform - replacing an array of provincial duties with a nationwide goods and services tax - is transforming the logistics industry in a country where moving stuff around is notoriously difficult to do.",
+          "button": "<a data-app-btn=\"true\" class=\"mbr-buttons__btn btn btn-lg btn-default\" href=\"#\" data-toolbar=\"-mbrBtnMove\">SCROLL DOWN TO READ MORE</a>"
+        },
+        {
+          "_tags": [
+            "Theme"
+          ],
+          "_name": "content1",
+          "_anchor": "content1-1g",
+          "text": "<p>India's greatest tax reform - replacing an array of provincial duties with a nationwide goods and services tax - is transforming the logistics industry in a country where moving stuff around is notoriously difficult to do.</p><div>Several analyses and studies have been published to predict its impact as the bill has slowly meandered through the complex legislative process of our country. It has been touted as a complete game changer that would propel economic growth in the long run and change the fundamental aspects of doing business.</div><div><br></div><div><div>“At the stroke of the midnight hour, when the world sleeps, India will awake to life and freedom. A moment comes, which comes but rarely in history when we step out from the old to new…” That is an extract from the “tryst with destiny” speech delivered by Jawaharlal Nehru, the first Prime Minister of independent India, to the Indian Constituent Assembly in The Parliament, on the eve of India’s independence, towards midnight on 15 August 1947. 70 years later towards midnight on 30 June, 2017 India once again made a tryst with destiny stepping out from the old to new. This time it was the official launch of the Goods and Services Tax (GST), the most sweeping tax reform for nearly 70 years.<br><p></p><p></p><p>It is a well-accepted fact that there would be a direct and immediate impact of GST on the logistics industry that includes customs clearance, freight forwarding, warehousing, distribution and supply chain industry in the country. It is also truly estimated by the government that GST would save companies around $14 billion because it would allow them to organise their warehouses and supply chains more efficiently. Firms can now move to demand-based “hub-and-spoke” models used globally, rather than operating state-by-state. As a result, there would be price corrections owing to reduced logistics cost, reduced transaction costs and transit time, and hassle-free transportation for domestic as well as international shipments. Hence, the beneficiary would be Indian manufacturers, exporters and end users owing to Indian products being very competitive.&nbsp;</p><p>We know that in India transporters and logistics professionals are bound to pay bribe to local police, traffic and other local admin bodies even you are doing proper paper work. But GST has crack the bounderies of kachcha maal and pakka maal. It makes us safe to transport goods all over India without any permit. In point of view of a Logistics Professional it great relax from cheating behaviour of local admin and police.</p><p></p></div></div>"
+        },
+        {
+          "_tags": [
+            "Theme"
+          ],
+          "_name": "form2",
+          "_anchor": "form2-1h",
+          "_params": {
+            "paddingTop": "1",
+            "paddingBottom": "1",
+            "bgImageRadio": false,
+            "parallax": true,
+            "bgImage": "images/bg3.jpg",
+            "bgColor": "#ffffff",
+            "bgColorRadio": true,
+            "overlay": false,
+            "overlayOpacity": 0.5,
+            "overlayColor": "#222",
+            "showTitle": true
+          },
+          "title": "SUBSCRIBE TO OUR NEWSLETTER",
+          "form": {
+            "action": "ajitmishra71@gmail.com",
+            "alerts": {
+              "success": "Thanks for filling out form!"
+            },
+            "fields": {
+              "email": {
+                "title": "Email",
+                "customTitle": "Enter Your Email Address..."
+              }
+            }
+          },
+          "buttons": "<a data-app-btn=\"true\" type=\"submit\" class=\"mbr-buttons__btn btn btn-lg btn-danger\">SUBSCRIBE</a>"
+        },
+        {
+          "_tags": [
+            "Theme"
+          ],
+          "_name": "social-buttons1",
+          "_styles": {
+            ".mbr-header__text": {
+              "font-size": "25px"
+            }
+          },
+          "_anchor": "social-buttons1-1i",
+          "_params": {
+            "paddingTop": "1",
+            "paddingBottom": "0",
+            "bgImageRadio": false,
+            "parallax": true,
+            "bgImage": "images/bg3.jpg",
+            "bgColor": "#fff",
+            "bgColorRadio": true,
+            "overlay": false,
+            "overlayOpacity": 0.5,
+            "overlayColor": "#222",
+            "inverse": false,
+            "counters": true,
+            "facebook": true,
+            "google": true,
+            "twitter": true
+          },
+          "text": "SHARE THIS PAGE!"
+        },
+        {
+          "_tags": [
+            "Theme"
+          ],
+          "_name": "footer1",
+          "_styles": {
+            "P": {
+              "color": "#ffffff"
+            }
+          },
+          "_anchor": "footer1-1j",
+          "_params": {
+            "paddingTop": 3,
+            "paddingBottom": 3,
+            "bgImageRadio": false,
+            "parallax": true,
+            "bgImage": "images/bg3.jpg",
+            "bgColor": "#4c6972",
+            "bgColorRadio": true,
+            "overlay": true,
+            "overlayOpacity": 0.8,
+            "overlayColor": "#444444"
+          },
+          "text": "Copyright (c) 2017 Join Study. <a href=\"https://ajitmishra.github.io/page2.html\" class=\"text-white\">Contact Us</a> &nbsp;| <a class=\"mbr-footer__link text-white\" href=\"https://ajitmishra.github.io/page3.html\">Privacy Policy</a>"
+        },
+        {
+          "_inherit": "msg-box5",
+          "_tags": [
+            "Theme"
+          ],
+          "_styles": {
+            ".mbr-header__text": {
+              "color": "#475577"
+            },
+            ".mbr-header__subtext": {
+              "color": "#ffffff"
+            },
+            ".mbr-article": {
+              "color": "#ffffff"
+            },
+            ".mbr-article P": {
+              "color": "#4c6972"
+            },
+            ".mbr-article DIV": {
+              "color": "#4c6972"
+            }
+          },
+          "_name": "msg-box4",
+          "_anchor": "msg-box4-1k",
+          "_params": {
+            "imageSize": "25",
+            "paddingTop": "1",
+            "paddingBottom": "1",
+            "bgImageRadio": false,
+            "parallax": true,
+            "bgImage": "images/bg3.jpg",
+            "bgColor": "#efefef",
+            "bgColorRadio": true,
+            "bgVideo": {
+              "url": "http://www.youtube.com/watch?v=uNCr7NdOJgw"
+            },
+            "bgVideoRadio": false,
+            "overlay": false,
+            "overlayOpacity": 0.5,
+            "overlayColor": "#222",
+            "inverse": true,
+            "showTitle": true,
+            "showMeta": false,
+            "showText": true,
+            "showButtons": true
+          },
+          "media": {
+            "image": {
+              "active": true,
+              "class": "mbr-figure__img",
+              "width": 1400,
+              "src": "@PROJECT_PATH@/assets/images/profile-1-600x450.jpg",
+              "link": "",
+              "alt": "",
+              "title": "",
+              "linkInNewWindow": false
+            },
+            "video": {
+              "src": "http://www.youtube.com/embed/sOSTC6FM6Bw",
+              "aspectratio": "16:9",
+              "autoplay": false,
+              "loop": false
+            },
+            "iconFont": {
+              "class": "mbr-iconfont mbr-iconfont-msg-box4",
+              "link": "",
+              "size": 0
+            }
+          },
+          "headerAlign": "left",
+          "title": "BLOG AUTHOR",
+          "meta": "By John Smith posted July 30, 2015",
+          "text": "<p><i><b>AJIT KUMAR MISHRA (MILT)</b></i></p><p>B.Sc.(Math Hon’s), &nbsp; B.C.A., &nbsp; Diploma in Logistics &amp; MMT, MBA (Logistics)<br></p><p></p><div>Associate Member of “The Chartered Institute of Logistics &amp; Transport- India”.</div><p></p>",
+          "button": "<a data-app-btn=\"true\" class=\"mbr-buttons__btn btn btn-lg btn-info\" href=\"https://joinstudy.moodlecloud.com/\" data-toolbar=\"-mbrBtnMove\">JOIN STUDY'S CLASSROOM</a>"
+        },
+        {
+          "_tags": [
+            "Theme"
+          ],
+          "_name": "social-buttons2",
+          "_anchor": "social-buttons2-1l",
+          "_params": {
+            "paddingTop": "1",
+            "paddingBottom": "1",
+            "bgImageRadio": false,
+            "parallax": true,
+            "bgImage": "images/bg3.jpg",
+            "bgColor": "#efefef",
+            "bgColorRadio": true,
+            "overlay": false,
+            "overlayOpacity": 0.5,
+            "overlayColor": "#222"
+          },
+          "text": "FOLLOW ME",
+          "icons": "<a data-app-btn=\"true\" class=\"mbr-social-icons__icon socicon-bg-twitter\" title=\"Twitter\" target=\"_blank\" href=\"https://twitter.com/JoinStudy\" data-toolbar=\"-mbrBtnAdd,-mbrBtnMove,-mbrFonts,-mbrFontSize\"><i class=\"socicon socicon-twitter\"></i></a> <a data-app-btn=\"true\" class=\"mbr-social-icons__icon socicon-bg-facebook\" title=\"Facebook\" target=\"_blank\" href=\"https://www.facebook.com/joinstudypage\" data-toolbar=\"-mbrBtnAdd,-mbrBtnMove,-mbrFonts,-mbrFontSize\"><i class=\"socicon socicon-facebook\"></i></a> <a data-app-btn=\"true\" class=\"mbr-social-icons__icon socicon-bg-googleplus\" title=\"Google+\" target=\"_blank\" href=\"https://plus.google.com/u/0/+JoinstudyIn/posts\" data-toolbar=\"-mbrBtnAdd,-mbrBtnMove,-mbrFonts,-mbrFontSize\"><i class=\"socicon socicon-googleplus\"></i></a> <a data-app-btn=\"true\" class=\"mbr-social-icons__icon socicon-bg-youtube\" title=\"YouTube\" target=\"_blank\" href=\"http://www.youtube.com/user/megaonlinetutor\" data-toolbar=\"-mbrBtnAdd,-mbrBtnMove,-mbrFonts,-mbrFontSize\"><i class=\"socicon socicon-youtube\"></i></a>  <a data-app-btn=\"true\" class=\"mbr-social-icons__icon socicon-bg-pinterest\" title=\"Pinterest\" target=\"_blank\" href=\"https://www.pinterest.com/ajitmishra/\" data-toolbar=\"-mbrBtnAdd,-mbrBtnMove,-mbrFonts,-mbrFontSize\"><i class=\"socicon socicon-pinterest\"></i></a> <a data-app-btn=\"true\" class=\"mbr-social-icons__icon socicon-bg-github\" title=\"GitHub\" target=\"_blank\" href=\"https://github.com/ajitmishra\" data-toolbar=\"-mbrBtnAdd,-mbrBtnMove,-mbrFonts,-mbrFontSize\"><i class=\"socicon socicon-github\"></i></a>  <a data-app-btn=\"true\" class=\"mbr-social-icons__icon socicon-bg-tumblr\" title=\"Tumblr\" target=\"_blank\" href=\"http://ajitmishra.tumblr.com/\" data-toolbar=\"-mbrBtnAdd,-mbrBtnMove,-mbrFonts,-mbrFontSize\"><i class=\"socicon socicon-tumblr\"></i></a> <a data-app-btn=\"true\" class=\"mbr-social-icons__icon socicon-bg-linkedin\" title=\"LinkedIn\" target=\"_blank\" href=\"https://www.linkedin.com/in/ajitmishra71\" data-toolbar=\"-mbrBtnAdd,-mbrBtnMove,-mbrFonts,-mbrFontSize\"><i class=\"socicon socicon-linkedin\"></i></a> "
+        },
+        {
+          "alias": "facebook-comments",
+          "_tags": [
+            "Extension"
+          ],
+          "_name": "facebook-comments-block",
+          "_anchor": "facebook-comments-block-1m",
           "_params": {
             "postsNumber": 5,
             "bgImage": "@ADDONS_PATH@/facebook-comments/facebook-comments-block/assets/comments_bg.jpg",
