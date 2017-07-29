@@ -92,14 +92,14 @@
               "color": "#ffffff"
             },
             "I": {
-              "color": "#0275d8"
+              "color": "#fff8e0"
             }
           },
           "_anchor": "header4-1",
           "_params": {
             "parallax": false,
             "bgImageRadio": true,
-            "bgImage": "@PROJECT_PATH@/assets/images/mbr-1400x933.jpg",
+            "bgImage": "@PROJECT_PATH@/assets/images/mbr-2000x1333.jpg",
             "bgColor": "#fff8e0",
             "bgColorRadio": false,
             "bgVideo": {
