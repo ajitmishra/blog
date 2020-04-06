@@ -1,7 +1,7 @@
 {
   "settings": {
     "name": "Courses",
-    "currentPage": "index.html",
+    "currentPage": "certificate-courses.html",
     "theme": {
       "name": "mobirise4",
       "title": "Mobirise 4",
@@ -38,7 +38,7 @@
     "cookiesAlert": "",
     "gdpr": "",
     "siteUrl": "undefined",
-    "uniqCompNum": 64,
+    "uniqCompNum": 65,
     "versionPublish": "4.11.3",
     "screenshot": "screenshot.png",
     "": "on",
@@ -2205,6 +2205,25 @@
           "_global": false,
           "_once": false,
           "_params": {}
+        },
+        {
+          "alias": false,
+          "_styles": {
+            "padding-top": "(@paddingTop * 15px)",
+            "padding-bottom": "(@paddingBottom * 15px)",
+            "background-color": "@bgColor",
+            ".mbr-text, blockquote": {
+              "color": "#767676"
+            }
+          },
+          "_name": "content2",
+          "_customHTML": "<section class=\"mbr-section article content1\">\n\n    <mbr-parameters>\n    <!-- Block parameters controls (Blue \"Gear\" panel) -->\n        <input type=\"range\" inline title=\"Top\" name=\"paddingTop\" min=\"0\" max=\"8\" step=\"1\" value=\"1\">\n        <input type=\"range\" inline title=\"Bottom\" name=\"paddingBottom\" min=\"0\" max=\"8\" step=\"1\" value=\"1\">\n        <input type=\"color\" title=\"Background Color\" name=\"bgColor\" value=\"#ffffff\">\n    <!-- End block parameters -->\n    </mbr-parameters> \n\n    <div class=\"container\">\n        <div class=\"media-container-row\">\n            <div class=\"mbr-text col-12 col-md-8 mbr-fonts-style\" mbr-theme-style=\"display-7\" data-multiline mbr-article>\n                <blockquote><p><b>What you will get in these courses:-\n</b></p><p><b><br></b><span style=\"font-size: 1.09rem; font-style: normal;\">Study materials and assignments in the form of PDF, Docs, Video, Links etc on your cloud classroom. You can download it and learn as per your free time.&nbsp;</span></p><p><span style=\"font-style: normal;\"><span style=\"font-size: 1.09rem;\"><br></span><span style=\"font-size: 1.09rem;\">Every weekend you will have to join our online virtual classroom on the prescribed time for online live learning. time will be decided after a discussion with students and their suitability. You will get minimum 12 virtual class in a course.&nbsp;</span></span></p><p><span style=\"font-style: normal;\"><span style=\"font-size: 1.09rem;\"><br></span><span style=\"font-size: 1.09rem;\">After completion of courses you will get a certificate of completion.</span></span></p></blockquote>\n            </div>\n        </div>\n    </div>\n</section>",
+          "_cid": "rVnPAuhEEZ",
+          "_protectedParams": [],
+          "_global": false,
+          "_once": false,
+          "_params": {},
+          "_anchor": "content2-1s"
         },
         {
           "alias": false,
